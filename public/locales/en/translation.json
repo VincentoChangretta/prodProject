@@ -1,0 +1,19 @@
+{
+  "Тестовый пример": "Test example",
+  "Перевод": "Translate",
+  "Главная страница": "Main page",
+  "Язык": "English",
+  "новый перевод": "новый перевод",
+  "Страница не найдена": "Page not found",
+  "Произошла непредвиденная ошибка": "An unexpected error has occured",
+  "Обновить страницу": "Reload page",
+  "throw error": "throw error",
+  "Главная": "Main",
+  "О сайте": "About us",
+  "Короткий язык": "EN",
+  "Значение": "value",  
+  "Добавить": "increment",  
+  "Отнять": "decrement",
+  "increment": "Увеличить",
+  "decrement": "Уменшьить"
+}

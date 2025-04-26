@@ -1,0 +1,6 @@
+{
+    "docker": true,
+    "chromeSelector": "#root > *",
+    "diffingEngine": "pixelmatch",
+    "reactUri": "file:./storybook-static"
+  }
