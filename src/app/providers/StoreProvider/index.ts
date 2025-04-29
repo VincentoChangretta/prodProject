@@ -1,5 +1,3 @@
-import { createReduxStore } from './config/store';
-import { StoreProvider } from './ui/StoreProvider';
-import { StateSchema } from './config/StateSchema';
-
-export { StoreProvider, createReduxStore, StateSchema };
+export { createReduxStore } from './config/store';
+export { StoreProvider } from './ui/StoreProvider';
+export { StateSchema, ReduxStoreWithManager } from './config/StateSchema';
