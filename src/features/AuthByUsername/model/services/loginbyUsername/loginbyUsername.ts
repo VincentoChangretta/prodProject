@@ -30,6 +30,6 @@ export const loginByUsername = createAsyncThunk<
         return response.data;
     } catch (err) {
         console.log(err);
-        return thunkAPI.rejectWithValue('error');
+        return thunkAPI.rejectWithValue(i18n.t('error'));
     }
 });

@@ -7,8 +7,7 @@ const defaultAsyncReducers: DeepPartial<ReducersMapObject<StateSchema>> = {
     loginForm: LoginReducer,
 };
 
-export const StoreDecorator =
-    (
+export const StoreDecorator = (
         state: DeepPartial<StateSchema>,
         asyncReducers?: DeepPartial<ReducersMapObject<StateSchema>>,
     ) =>
