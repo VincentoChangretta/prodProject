@@ -5,7 +5,7 @@ import { useCallback, useState } from 'react';
 import { LoginModal } from 'features/AuthByUsername';
 import cls from './Navbar.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
-import { getUserAuthData, userActions } from 'enteties/User';
+import { getUserAuthData, userActions } from 'entities/User';
 
 interface NavbarProps {
     className?: string;

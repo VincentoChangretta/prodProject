@@ -10,7 +10,14 @@
         { "id": "2", "text": "another comment about post 1", "postId": "1" }
     ],
     "profile": {
-        "name": "typicode"
+        "first": "Aram",
+        "lastname": "Papikyan",
+        "age": 23,
+        "currency": "RUB",
+        "country": "Russia",
+        "city": "Moscow",
+        "username": "admin",
+        "avatar": "https://thecellist.ru/wp-content/uploads/2020/09/Andrea-Bochelli.jpg"
     },
     "users": [
         {

@@ -5,12 +5,15 @@
   "Lorem ipsum dolor, sit amet consectetur adipisicing elit": {
     "Exercitationem, facilis fuga facere accusamus non velit!": "Exercitationem, facilis fuga facere accusamus non velit!"
   },
+  "PROFILE PAGE": "PROFILE PAGE",
   "Toggle": "Toggle",
   "decrement": "decrement",
   "increment": "increment",
   "throw error": "throw error",
   "value": "value",
   "В": "В",
+  "Ваша фамилия": "Ваша фамилия",
+  "Ваше имя": "Ваше имя",
   "Введите ": "Введите ",
   "Введите username": "Введите username",
   "Введите пароль": "Введите пароль",
@@ -26,6 +29,8 @@
   "Обновить страницу": "Обновить страницу",
   "Отнять": "Отнять",
   "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
+  "Профиль": "Профиль",
+  "Редактировать": "Редактировать",
   "Страница не найдена": "Страница не найдена",
   "Форма авторизации": "Форма авторизации",
   "Язык": "Язык"

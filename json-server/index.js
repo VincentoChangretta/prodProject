@@ -11,7 +11,7 @@ server.use(jsonServer.bodyParser);
 
 // Нужно для небольшой задержки, чтобы запрос проходил не мгновенно, имитация реального апи
 server.use(async (req, res, next) => {
-    await new Promise((res) => {
+    await new Promise(res => {
         setTimeout(res, 800);
     });
     next();
@@ -25,7 +25,7 @@ server.post('/login', (req, res) => {
         const { users = [] } = db;
 
         const userFromBd = users.find(
-            (user) => user.username === username && user.password === password,
+            user => user.username === username && user.password === password,
         );
 
         if (userFromBd) {

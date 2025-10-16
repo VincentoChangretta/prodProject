@@ -11,21 +11,19 @@ import MainIcon from 'shared/assets/icons/home.svg';
 import cls from './Sidebar.module.scss';
 
 interface SidebarProps {
-  className?: string;
+    className?: string;
 }
 
 export const Sidebar = ({ className }: SidebarProps) => {
     const [collapsed, setCollapsed] = useState(false);
     const onToggle = () => {
-        setCollapsed((prev) => !prev);
+        setCollapsed(prev => !prev);
     };
 
     return (
         <div
             data-testid="sidebar"
-            className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [
-                className,
-            ])}
+            className={classNames(cls.Sidebar, { [cls.collapsed]: collapsed }, [className])}
         >
             <Button
                 data-testid="sidebar-toggle"
@@ -56,6 +54,16 @@ export const Sidebar = ({ className }: SidebarProps) => {
                     >
                         <AboutIcon className={cls.icon} />
                         <span className={cls.link}>{t('О сайте')}</span>
+                    </AppLink>
+                </div>
+                <div className={cls.item}>
+                    <AppLink
+                        theme={AppLinkTheme.SECONDARY}
+                        to={RoutePath.profile}
+                        className={cls.item}
+                    >
+                        <AboutIcon className={cls.icon} />
+                        <span className={cls.link}>{t('Профиль')}</span>
                     </AppLink>
                 </div>
             </div>
