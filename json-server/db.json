@@ -1,29 +1,53 @@
 {
-    "posts": [
-        { "id": "1", "title": "a title", "views": 100 },
-        { "id": "2", "title": "another title1", "views": 200 },
-        { "id": "3", "title": "another title2", "views": 200 },
-        { "id": "4", "title": "another title3", "views": 200 }
-    ],
-    "comments": [
-        { "id": "1", "text": "a comment about post 1", "postId": "1" },
-        { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-        "first": "Aram",
-        "lastname": "Papikyan",
-        "age": 23,
-        "currency": "RUB",
-        "country": "Russia",
-        "city": "Moscow",
-        "username": "admin",
-        "avatar": "https://thecellist.ru/wp-content/uploads/2020/09/Andrea-Bochelli.jpg"
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
     },
-    "users": [
-        {
-            "id": "1",
-            "username": "admin",
-            "password": "123"
-        }
-    ]
+    {
+      "id": "2",
+      "title": "another title1",
+      "views": 200
+    },
+    {
+      "id": "3",
+      "title": "another title2",
+      "views": 200
+    },
+    {
+      "id": "4",
+      "title": "another title3",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "first": "Aramasdasdas",
+    "lastname": "Papikyanadas",
+    "age": 2323123,
+    "currency": "EUR",
+    "country": "Armenia",
+    "city": "Moscowas",
+    "username": "admin",
+    "avatar": "https://thecellist.ru/wp-content/uploads/2020/09/Andrea-Bochelli.jpg"
+  },
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ]
 }
