@@ -10,7 +10,7 @@ i18n.use(Backend)
     .init({
         fallbackLng: 'en',
         debug: __IS_DEV__,
-        load: 'languageOnly',
+        load: 'languageOnly', // добавмл в ходе разработки а то переводы мешали loki скриншотным тестам
         interpolation: {
             escapeValue: false, // not needed for react as it escapes by default
         },
